@@ -1,0 +1,13 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                   controllers.Application.index
+
+# Rest API
+GET     /api/restaurant                     controllers.Application.getRestaurants
+POST    /api/restaurant                     controllers.Application.addRestaurant
+#GET    /api/restaurant                     controllers.Application.filterRestaurants(closed: Option[String])
+#PUT    /api/restaurant/:uuid               controllers.Application.updateResturant(uuid: String)
+

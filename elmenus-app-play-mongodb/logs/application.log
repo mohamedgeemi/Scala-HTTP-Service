@@ -1,0 +1,25 @@
+2017-12-08 22:50:38,601 - [INFO] - from play in pool-4-thread-1 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2017-12-08 22:52:01,842 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin starting...
+
+2017-12-08 22:52:01,987 - [INFO] - from application in play-internal-execution-context-1 
+ReactiveMongoPlugin successfully started with db 'elmenus'! Servers:
+		[localhost:27017]
+
+2017-12-08 22:52:03,010 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2017-12-08 22:52:05,582 - [INFO] - from play in play-akka.actor.default-dispatcher-3 
+Starting application default Akka system.
+
+2017-12-08 23:01:05,069 - [DEBUG] - from application in play-akka.actor.default-dispatcher-4 
+Successfully inserted to Database with Error: reactivemongo.core.commands.LastError: DatabaseException['empty lastError message']
+
+2017-12-08 23:03:49,359 - [INFO] - from play in pool-4-thread-1 
+Shutdown application default Akka system.
+
+2017-12-08 23:03:49,737 - [INFO] - from application in pool-4-thread-1 
+ReactiveMongoPlugin stops, closing connections...
+
