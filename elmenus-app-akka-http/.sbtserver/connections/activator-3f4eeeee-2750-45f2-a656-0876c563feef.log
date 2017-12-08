@@ -1,0 +1,168 @@
+New log file opened at Fri Dec 08 15:31:36 EET 2017 by 5792@DESKTOP-KEL8T5E
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: E:\Tasks\elmenus-app-akka-http\.sbtserver\connections\master.log))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,sbt client logs are in: E:\Tasks\elmenus-app-akka-http\.sbtserver\connections\activator-3f4eeeee-2750-45f2-a656-0876c563feef.log))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,sbt general server logs are in: E:\Tasks\elmenus-app-akka-http\.sbtserver\master.log))
+Reading next message from client.
+Got request: ListenToEvents()
+Reading next message from client.
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> --initialize))
+Got request: ListenToBuildChange()
+Reading next message from client.
+Got request: SendSyntheticBuildChanged()
+Reading next message from client.
+Got request: KeyLookupRequest(discoveredMainClasses)
+Reading next message from client.
+Got request: KeyLookupRequest(mainClass)
+Reading next message from client.
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: (3,ReceivedResponse())
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> initialize))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> onFailure load-failed))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> boot))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> reload))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory E:\Tasks\elmenus-app-akka-http\project))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,[Loading] Found non-root projects ))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,[Loading] Done in E:\Tasks\elmenus-app-akka-http\project, returning: ()))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,[Loading] Done in E:\Tasks\elmenus-app-akka-http\project, returning: (elmenus-app-akka-http-build)))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(info,Loading project definition from E:\Tasks\elmenus-app-akka-http\project))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,Running task... Cancel: sbt.TaskCancellationStrategy$Null$@319dcc94, check cycles: false))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,All initially invalidated sources: Set()
+))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,Copy resource mappings: 
+	))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,[Loading] Scanning directory E:\Tasks\elmenus-app-akka-http))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogTrace(ClassNotFoundException,$28605180c6012d83f5ca$))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(error,java.lang.ClassNotFoundException: $28605180c6012d83f5ca$))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(error,Use 'last' for the full log.))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> load-failed))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(error,Failed to load project.))
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: BuildFailedToLoad()
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: DetachedLogEvent(LogMessage(debug,> server-wait-for-reboot))
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: ExecutionRequest(compile)
+Reading next message from client.
+Got request: UnlistenToEvents()
+Reading next message from client.
+Got request: UnlistenToBuildChange()
+Reading next message from client.
+Sending msg to client activator-3f4eeeee-2750-45f2-a656-0876c563feef: (57,ReceivedResponse())
+Client activator-3f4eeeee-2750-45f2-a656-0876c563feef EOF, shutting down.
+Stopping client.
+Dropping message (0,ReceivedResponse()) to dead client activator-3f4eeeee-2750-45f2-a656-0876c563feef
+Client activator-3f4eeeee-2750-45f2-a656-0876c563feef thread exiting.
