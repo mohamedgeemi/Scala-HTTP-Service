@@ -1,4 +1,11 @@
-activator-akka-scala-seed
-=========================
+# Restaurants AKKA HTTP Service
 
-A minimal seed template for an Akka with Scala build 
+## How to use it:
+
+- Clone the project
+- Install Activator
+- Build with sbt (import to IntelliJ or eclipse)
+- activator run
+
+## Examples:
+Check [this](https://github.com/mohamedgeemi/elmenus/blob/master/elmenus-app-play-mongodb/README.md)
