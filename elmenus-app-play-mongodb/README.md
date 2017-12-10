@@ -42,7 +42,7 @@ Expected Output:
 
 ### Add new resturant
 ```
-curl -v -H "Content-Type: application/json" -X GET http://localhost:9000/api/restau -d '{"uuid": "12", "data": {"enName": "gemgem",
+curl -v -H "Content-Type: application/json" -X -d '{"uuid": "12", "data": {"enName": "gemgem",
 "arName": "محمد جمال",  "state": "string", "routingMethod": "String", "logo": "String","coverPhoto": "String","enDescription": "String",
 "arDescription": "String", "shortNumber": "String", "facebookLink":"String", "twitterLink": "String", "youtubeLink": "String",
 "website": "String", "onlinePayment": true, "client": false,"pendingInfo": true, "pendingMenu": false,
