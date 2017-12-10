@@ -1,5 +1,11 @@
 # Restaurants data REST API
 
+## Stack
+- Scala 2.11.1
+- Play Framework 2.3.6
+- MongoDB 3.6 
+- Reactivemongo ORM
+
 ## How to use it:
 
 - Clone the project
