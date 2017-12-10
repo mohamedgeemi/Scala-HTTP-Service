@@ -1,7 +1,11 @@
 # Restaurants AKKA HTTP Service
 
-## How to use it:
+## Stack
+- Scala
+- Akka
+- Akka Http
 
+## How to use it:
 - Clone the project
 - Install Activator
 - Build with sbt (import to IntelliJ or eclipse)
