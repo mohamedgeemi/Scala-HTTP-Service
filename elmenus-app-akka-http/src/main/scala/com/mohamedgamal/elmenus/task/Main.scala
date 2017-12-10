@@ -14,7 +14,7 @@ object Main extends App with RestInterface {
   val host = config.getString("http.host")
   val port = config.getInt("http.port")
 
-  implicit val system = ActorSystem("quiz-management-service")
+  implicit val system = ActorSystem("elmenus-app")
   implicit val materializer = ActorMaterializer()
 
 
