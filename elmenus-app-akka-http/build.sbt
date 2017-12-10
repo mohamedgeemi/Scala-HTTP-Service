@@ -28,4 +28,4 @@ libraryDependencies ++= {
 // Assembly settings
 mainClass in Global := Some("com.mohamedgamal.elmenus.task")
 
-assemblyJarName in assembly := "quiz-management-server.jar"
+assemblyJarName in assembly := "elmenus-app.jar"
